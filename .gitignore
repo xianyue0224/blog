@@ -90,6 +90,7 @@ dist
 
 # vuepress build output
 .vuepress/dist
+.temp
 
 # Serverless directories
 .serverless/
@@ -102,3 +103,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+node_modules/
+docs\src/.vuepress/.cache/
+docs\src/.vuepress/.temp/
+docs\src/.vuepress/dist/
+
+node_modules/
+test\src/.vuepress/.cache/
+test\src/.vuepress/.temp/
+test\src/.vuepress/dist/
