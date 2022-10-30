@@ -113,3 +113,6 @@ node_modules/
 test\src/.vuepress/.cache/
 test\src/.vuepress/.temp/
 test\src/.vuepress/dist/
+
+# Local Netlify folder
+.netlify
