@@ -10,11 +10,17 @@ export default () => hopeTheme({
     // 侧边栏配置
     sidebar: zhSidebar(),
 
-    hostname: "https://mister-hope.github.io",
+    // 是否展示上一次更新时间
+    lastUpdated: true,
+
+    // 是否展示页面的贡献者
+    contributors: true,
+
+    hostname: "https://taupe-paletas-a7dff4.netlify.app",
 
     author: {
         name: "闲月",
-        url: "https://mrhope.site",
+        url: "https://github.com/xianyue0224",
     },
 
     iconAssets: "iconfont",
@@ -29,17 +35,14 @@ export default () => hopeTheme({
 
     blog: {
         medias: {
-            BiliBili: "https://example.com",
-            Gitee: "https://example.com",
-            GitHub: "https://example.com",
+            BiliBili: "https://space.bilibili.com/105418081",
+            GitHub: "https://github.com/xianyue0224",
+            Gitee: "https://gitee.com/xianyue0224",
             Gmail: "xianyue0224@gmail.com",
             QQ: "1980578544",
-            Steam: "https://example.com",
-            Twitter: "https://example.com",
-            Wechat: "https://example.com",
-            Weibo: "https://example.com",
-            Youtube: "https://example.com",
-            Zhihu: "https://example.com",
+            Weibo: "https://weibo.com/u/7205145908",
+            Youtube: "https://www.youtube.com/channel/UCh5e9xC0DDAWy9WMUaFQTsQ",
+            Zhihu: "https://www.zhihu.com/people/gu-shan-si-bei-44",
         },
     },
 

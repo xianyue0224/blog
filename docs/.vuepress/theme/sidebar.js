@@ -13,9 +13,7 @@ export default () => sidebar({
                     prefix: "vscode/",
                     icon: "edit",
                     collapsable: true,
-                    children: [
-                        { text: "VS Code 简介", icon: "edit", link: "1" }
-                    ]
+                    children: "structure"
                 },
                 {
                     text: "Chrome",

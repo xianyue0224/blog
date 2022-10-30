@@ -39,7 +39,7 @@ export default () => navbar([
                 icon: "edit",
                 prefix: "devtool/",
                 children: [
-                    { text: "VS Code", icon: "edit", link: "vscode/1" },
+                    { text: "VS Code", icon: "edit", link: "vscode/vscode入门" },
                     { text: "Chrome", icon: "edit", link: "chrome/2" }
                 ],
             },
