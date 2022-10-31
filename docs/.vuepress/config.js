@@ -1,5 +1,6 @@
-import { defineUserConfig } from "vuepress";
-import hopeTheme from "./theme/index";
+import { defineUserConfig } from "vuepress"
+import hopeTheme from "./theme/index"
+import { searchPlugin } from "@vuepress/plugin-search"
 
 export default defineUserConfig({
   base: "/",
@@ -13,4 +14,8 @@ export default defineUserConfig({
   theme: hopeTheme(),
 
   shouldPrefetch: false,
-});
+
+  plugins: [
+    searchPlugin({})
+  ]
+})

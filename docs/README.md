@@ -3,10 +3,11 @@ home: true
 layout: Blog
 icon: home
 title: 主页
-heroImage: /logo.svg
-heroText: 克洛格森林
+heroImage: /塞尔达传说/波克布林.png
+heroText: 闲月✨
 heroFullScreen: true
 tagline: 即使勇敢如你，也不是刀枪不入的。
+bgImage: /塞尔达传说/hero.jpg
 projects:
   - icon: project
     name: 项目名称

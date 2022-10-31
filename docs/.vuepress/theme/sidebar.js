@@ -6,49 +6,42 @@ export default () => sidebar({
         {
             text: "开发工具",
             prefix: "devtool/",
-            icon: "edit",
+            icon: "tool",
             children: [
                 {
                     text: "VS Code",
                     prefix: "vscode/",
-                    icon: "edit",
+                    icon: "vscode",
                     collapsable: true,
                     children: "structure"
                 },
                 {
                     text: "Chrome",
                     prefix: "chrome/",
-                    icon: "edit",
+                    icon: "chrome",
                     collapsable: true,
-                    children: [
-                        { text: "Chrome 简介", icon: "edit", link: "2" }
-                    ]
+                    children: "structure"
                 },
             ]
         },
         {
             text: "编程语言",
             prefix: "language/",
-            icon: "edit",
+            icon: "code",
             children: [
                 {
                     text: "JavaScript",
                     prefix: "js/",
-                    icon: "edit",
+                    icon: "javascript",
                     collapsable: true,
-                    children: [
-                        { text: "基础语法", icon: "edit", link: "1" },
-                        { text: "数组", icon: "edit", link: "2" },
-                    ]
+                    children: "structure"
                 },
                 {
                     text: "HTML",
                     prefix: "html/",
-                    icon: "edit",
+                    icon: "html",
                     collapsable: true,
-                    children: [
-                        { text: "常用标签", icon: "edit", link: "1" }
-                    ]
+                    children: "structure"
                 }
             ]
         },
@@ -56,15 +49,15 @@ export default () => sidebar({
     // 在浏览生活内容的时候会展示的侧边栏
     "/生活/": [
         {
-            text: "吐槽",
+            text: "吐槽一下",
             prefix: "吐槽/",
-            icon: "edit",
+            icon: "emoji",
             children: "structure"
         },
         {
-            text: "琐碎",
+            text: "琐碎小事",
             prefix: "琐碎/",
-            icon: "edit",
+            icon: "flower",
             children: "structure"
         },
     ]

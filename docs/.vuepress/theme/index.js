@@ -16,22 +16,29 @@ export default () => hopeTheme({
     // 是否展示页面的贡献者
     contributors: true,
 
+    // 域名
     hostname: "https://taupe-paletas-a7dff4.netlify.app",
 
+    // 作者
     author: {
-        name: "闲月",
+        name: "闲月✨",
         url: "https://github.com/xianyue0224",
     },
 
+    // iconfont 图标CSS地址
     iconAssets: "iconfont",
 
-    logo: "/logo.svg",
+    // logo
+    logo: "/塞尔达传说/林克.png",
 
+    // 仓库
     repo: "xianyue0224/blog",
 
+    // 文件夹
     docsDir: "docs",
 
-    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+    // 页面信息
+    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
     blog: {
         medias: {
@@ -46,8 +53,10 @@ export default () => hopeTheme({
         },
     },
 
+    // 页脚
     footer: "期待2023年5月12日，塞尔达传说天下无敌！",
 
+    // 是否展示页脚
     displayFooter: true,
 
     // page meta
@@ -57,7 +66,7 @@ export default () => hopeTheme({
 
     encrypt: {
         config: {
-            "/demo/encrypt.html": ["1234"],
+            "/生活/琐碎/买菜被坑走一套房.html": ["xianyue"],
         },
     },
 
@@ -66,33 +75,13 @@ export default () => hopeTheme({
             autoExcerpt: true,
         },
 
-        // If you don't need comment feature, you can remove following option
-        // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-        // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
+        // 评论系统
         comment: {
-            /**
-             * Using Giscus
-             */
-            provider: "Giscus",
-            repo: "vuepress-theme-hope/giscus-discussions",
-            repoId: "R_kgDOG_Pt2A",
-            category: "Announcements",
-            categoryId: "DIC_kwDOG_Pt2M4COD69",
-
-            /**
-             * Using Twikoo
-             */
-            // provider: "Twikoo",
-            // envId: "https://twikoo.ccknbc.vercel.app",
-
-            /**
-             * Using Waline
-             */
-            // provider: "Waline",
-            // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+            provider: "Waline",
+            serverURL: "https://blog-comment-p3gcubp09-xianyue0224.vercel.app/",
         },
 
-        // Disable features you don't want here
+        // 在这里禁用不想要的功能
         mdEnhance: {
             align: true,
             attrs: true,
@@ -197,5 +186,9 @@ export default () => hopeTheme({
                 ],
             },
         },
+
+        // 当复制的文本超过指定字符长度（默认100）就自动带上版权信息
+        copyright: true
     },
 })
+

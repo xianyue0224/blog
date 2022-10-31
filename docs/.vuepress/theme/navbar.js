@@ -3,35 +3,35 @@ import { navbar } from "vuepress-theme-hope";
 export default () => navbar([
     {
         text: "主页",
-        icon: "edit",
+        icon: "home",
         link: "/README.md"
     },
     {
-        text: "生活",
+        text: "生活碎碎念",
         icon: "discover",
         prefix: "/生活/",
         children: [
             {
-                text: "吐槽",
+                text: "吐槽一下",
                 icon: "edit",
                 prefix: "吐槽/",
                 children: [
-                    { text: "广东人的数学有问题", icon: "edit", link: "广东人的数学有问题" }
+                    { text: "广东人的数学有问题", icon: "emoji", link: "广东人的数学有问题" }
                 ]
             },
             {
-                text: "琐碎",
+                text: "琐碎小事",
                 icon: "edit",
                 prefix: "琐碎/",
                 children: [
-                    { text: "买菜被坑走一套房", icon: "edit", link: "买菜被坑走一套房" }
+                    { text: "买菜被坑走一套房", icon: "flower", link: "买菜被坑走一套房" }
                 ]
             }
         ]
     },
     {
         text: "博客",
-        icon: "edit",
+        icon: "blog",
         prefix: "/posts/",
         children: [
             {
@@ -39,29 +39,19 @@ export default () => navbar([
                 icon: "edit",
                 prefix: "devtool/",
                 children: [
-                    { text: "VS Code", icon: "edit", link: "vscode/vscode入门" },
-                    { text: "Chrome", icon: "edit", link: "chrome/2" }
+                    { text: "VS Code", icon: "vscode", link: "vscode/vscode入门" },
+                    { text: "Chrome", icon: "chrome", link: "chrome/Chrome浏览器常用功能介绍" }
                 ],
             },
             {
-                text: "JS",
+                text: "编程语言",
                 icon: "edit",
                 prefix: "language/",
                 children: [
-                    {
-                        text: "基础语法",
-                        icon: "edit",
-                        link: "js/1",
-                    },
-                    {
-                        text: "数组",
-                        icon: "edit",
-                        link: "js/2",
-                    }
+                    { text: "Javascript", icon: "javascript", link: "js/基础语法" },
+                    { text: "HTML", icon: "html", link: "html/常用标签" }
                 ],
-            },
-            { text: "五块钱如何花三天", icon: "edit", link: "五块钱如何花三天" },
-            { text: "母猪的产后护理", icon: "edit", link: "母猪的产后护理" },
+            }
         ],
     }
 ]);

@@ -1,6 +1,5 @@
 ---
 title: VS Code 设置推荐
-icon: edit
 date: 2022-10-30
 category:
   - 开发工具

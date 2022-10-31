@@ -1,6 +1,5 @@
 ---
 title: VS Code 入门
-icon: edit
 date: 2022-10-30
 category:
   - 开发工具
@@ -96,7 +95,6 @@ VS Code 全称 [Visual Studio Code](https://code.visualstudio.com)，是一个�
     "when":"快捷键触发的条件，并非什么时候按下快捷键都需要执行command规定的操作，例如复制需要先选中文本这个前提条件，就需要在此声明"
   }
 ]
-
 ```
 很明显，**key** 和 **command** 是必须字段，**when** 是可选的，因为不是所有快捷键都需要触发的前提条件，比如复制这个快捷键，其实是不需要前提条件的。
 
