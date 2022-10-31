@@ -1,5 +1,7 @@
 ---
 title: 生活碎碎念
+icon: discover
+article: false
 index: false
 comment: false
 ---

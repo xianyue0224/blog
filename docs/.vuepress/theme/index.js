@@ -7,6 +7,15 @@ export default () => hopeTheme({
     // 导航栏配置
     navbar: zhNavbar(),
 
+    // 是否在向下滚动时隐藏顶部导航栏
+    navbarAutoHide: "always",
+
+    // 是否在文章结尾显示上一篇的链接
+    prevLink: true,
+
+    // 是否在文章结尾显示下一篇的链接
+    nextLink: true,
+
     // 侧边栏配置
     sidebar: zhSidebar(),
 
@@ -38,9 +47,15 @@ export default () => hopeTheme({
     docsDir: "docs",
 
     // 页面信息
-    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
+    pageInfo: ["Original", "Category", "Tag", "Word", "ReadingTime", "PageView", "Date"],
 
     blog: {
+        name: "闲月",
+        description: "面向未来前端开发者一枚。",
+        intro: "https://github.com/xianyue0224",
+        roundAvatar: true,
+        timeline: "生活不止眼前的苟且，还有诗和远方。",
+        articleInfo: ["Original", "Date", "PageView", "Category", "Tag"],
         medias: {
             BiliBili: "https://space.bilibili.com/105418081",
             GitHub: "https://github.com/xianyue0224",

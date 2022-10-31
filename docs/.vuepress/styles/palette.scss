@@ -1,2 +1,10 @@
+@font-face {
+    font-family: FiraCode;
+    src: url(/assets/font/FiraCode-Regular.ttf);
+}
+
 // you can change colors here
 $theme-color: #096dd9;
+
+// 代码块字体
+$font-family-code: "FiraCode"

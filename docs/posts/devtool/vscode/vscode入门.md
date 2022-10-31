@@ -1,13 +1,12 @@
 ---
 title: VS Code 入门
 date: 2022-10-30
+isOriginal: true
 category:
   - 开发工具
 tag:
   - vscode
   - 生产力
-prev: false
-next: ./vscode设置推荐
 ---
 
 介绍一下 VS Code，讲一下如何更改设置和快捷键等常见的操作。

@@ -1,5 +1,6 @@
 ---
 title: VS Code 设置推荐
+isOriginal: true
 date: 2022-10-30
 category:
   - 开发工具

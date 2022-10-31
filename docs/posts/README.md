@@ -1,5 +1,7 @@
 ---
 title: 博客文章
+icon: blog
+article: false
 index: false
 comment: false
 ---
