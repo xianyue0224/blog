@@ -23,12 +23,107 @@ next: false
 
 ## 编辑器字体
 
-todo
+VS Code 是支持自定义编辑器字体的，并且有不少适合用于展示代码的字体可以选择。
+
+一款出色的字体不仅能将代码以最大程度的美感呈现给程序员，还能起到缓解视觉疲劳的效果。
+
+因此，配置合适自己的字体，是打磨编辑器至关重要的一环。下面我将推荐四款我认为比较出色的字体供你参考：
+
+### 推荐4款字体
+
+1) [MonoLisa](https://www.monolisa.dev/)  
+MonoLisa 采用了一系列独具匠心的设计理念，使字体的易读性大大增强，阅读使用这款字体的代码，不仅会在视觉上感到舒适，甚至可以提高阅读速度。  
+然而，一切美好的事物都是有代价的，它收费。但是也提供免费的[试用版](https://www.monolisa.dev/buy/661578)。![image](/img/monalisa.png)
+
+2) [Fira Code](https://github.com/tonsky/FiraCode/blob/master/README_CN.md)  
+一款很出名的编程连字等宽字体，完全免费。  
+:::tip “连字”是什么意思
+**字体本身改变了某些特定字符组合在一起时的呈现效果，但底层代码仍然与ASCII兼容。这有助于更快地阅读和理解代码。**  
+举个栗子：正常情况下，短横线（-）和大于号（>）连续出现是不粘在一起的，你可以通过两个字符间的小空隙将它们分离开，但是在Fira Code字体中，它长这样：→。有点难表述，请看下图：
+![image](https://raw.githubusercontent.com/tonsky/FiraCode/e19f63e0e92dd6226576f139f664262b8a3f806d/extras/logo.svg)
+:::
+
+3) [Source Code Pro](https://adobe-fonts.github.io/source-code-pro/)  
+被很多文章赞誉为“完美”的字体，由我们熟知的Adobe公司开发而来，完全开源免费，可以直接在它们的Github[仓库](https://github.com/adobe-fonts/source-code-pro)中下载。  
+它的字体真的很漂亮，对很多字符做了优化，甚至连*都很好看。  
+![image](/img/source_code_pro.png)
+
+4) [Jetbrains Mono](https://www.jetbrains.com/lp/mono/)  
+这个字体更加离谱，快被一些程序员吹上天了，难道是因为好看吗？会不会是因为Jetbrains公司难得有一款免费的产品？  
+![image](/img/jetbrains_mono.png)
+
+**以上就是我为大家推荐的四款适合用于编程的字体。**需求再紧迫都好，只有眼睛是真正属于是自己的，为自己着想比什么都重要。
+
+除了以上四款，社区里推荐的字体还有很多，为了保证文章内容质量，就不一一列举了，需要了解的读者可以自行在社区中探索。  
+
+另外，这里推荐一个[神器](https://fontforge.org/en-US/)给动手能力强的读者，什么意思？自己动手设计一款字体呗！
+
+### 使用字体
+当选定好自己心仪的字体后，就该着手把它使用到VS Code中了。这里我们以**Fira Code**字体为例来教大家怎么操作。
+
+#### 下载字体文件
+不论你选中的字体是哪一款，都可以在它的官网或者GIthub仓库找到字体文件的下载方式，但不论是在哪下载的，最后都会得到类似的文件。这是Fira Code的文件下载[链接](https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip)。  
+
+下载得到一个压缩包，解压后得到如下文件：  
+![image](/img/firacodefile.png)
+
+#### 安装字体到操作系统
+
+接下来我们要先把该字体安装到操作系统中，放心，只要你不更改操作系统的字体设置，即使你安装了也不会影响到你的电脑上文字的展示效果。
+
+:::warning
+如果你是Windows操作系统，你接下来安装字体的方法跟我是一样的，如果你是其他操作系统，可以在这个[链接](https://github.com/tonsky/FiraCode/wiki/Installing)找到对应的安装字体的方法。
+:::
+
+1) 进入解压缩后得到的ttf文件夹  
+你会看到6个ttf格式的文件。  
+
+2) 全选它们，点击右键，找到安装选项，点击  
+![image](/img/installfont.png)
+
+3) 验证是否安装成功  
+在系统设置里按以下步骤找到页面，再搜索，看结果。  
+![image](/img/issuccessinstall.png)
+
+#### VS Code 设置字体
+打开设置的JSON文件，添加以下配置项：
+```json
+{
+  // 其他设置项
+  ...
+
+  // 字体设置
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "editor.letterSpacing": 0.5,
+}
+```
+这里我们还额外设置了字体大小、字重、字符间距等和字体相关的设置项，最后呈现出来的效果，读者可以自行打开文件查看。
+:::tip 补充说明
+这些都是最符合我个人审美的设定，读者完全可以根据自己的喜好来调整对应的参数。看不懂英文也没关系，在VS Code装了汉化扩展后，将鼠标悬停在对应的设置项上，可以查看对应的中文解释。
+:::
+
+:::warning 调整字重时请注意  
+Fira Code 支持的字重值包括 300、400、500、600，分别对应字体样式 Light、Regular、Medium、Bold。  
+:::
+
+**每种字体都有对应的安装及使用指南，请仔细阅读。**
 
 ## 颜色主题
 
-todo
+我经常在一些编程教学视频或者技术文章的评论区，看到有人询问视频或文章内容中出现的VS Code主题叫什么名字，但我想说的是，我们更应该关注的是内容本身，对程序员而言，技术才是刚需。  
+主题这东西，完全可以找个空闲时间，在网上随便一个论坛搜索“vscode主题”关键字就能得到一堆相关的推荐文章，然后，你就可以花个十来分钟，像皇帝翻牌子一样，挑一个你最喜欢的带回家。
+
+:::tip 提示  
+为了不贴太多图片增加文章的字节，我下面推荐的主题，除了名字以外只会提供一个点击就能看到效果的链接。
+
+图标主题和颜色主题，都算是改善编辑器外观的一类扩展，我会尽量把遇到的好看的主题都贴在这里供大家“选妃”，但提醒大家，别花太多时间在这上面，找到适合的就好，然后专一搞技术。👨‍💻
+:::
+
+- [Shades of Purple](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/1_sop.gif)
 
 ## 图标主题
 
-todo
+- [vscode-icons](https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/images/screenshot.gif)
