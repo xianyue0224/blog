@@ -81,7 +81,7 @@ export default () => hopeTheme({
 
     encrypt: {
         config: {
-            "/生活/琐碎/买菜被坑走一套房.html": ["xianyue"],
+            // "/生活/琐碎/买菜被坑走一套房.html": ["xianyue"],
         },
     },
 
