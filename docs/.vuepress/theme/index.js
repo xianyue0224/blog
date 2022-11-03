@@ -8,7 +8,7 @@ export default () => hopeTheme({
     navbar: zhNavbar(),
 
     // 是否在向下滚动时隐藏顶部导航栏
-    navbarAutoHide: "always",
+    // navbarAutoHide: "always",
 
     // 是否在文章结尾显示上一篇的链接
     prevLink: true,

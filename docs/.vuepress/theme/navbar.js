@@ -53,6 +53,11 @@ export default () => navbar([
                 ],
             }
         ],
+    },
+    {
+        text: "杂谈",
+        icon: "mesh",
+        link: "/other/README.md"
     }
 ]);
 

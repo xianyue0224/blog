@@ -60,5 +60,13 @@ export default () => sidebar({
             icon: "flower",
             children: "structure"
         },
+    ],
+    // 在浏览杂谈板块内容时会展示的侧边栏
+    "/other/": [
+        {
+            text: "杂谈",
+            icon: "mesh",
+            children: "structure"
+        }
     ]
 });
