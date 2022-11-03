@@ -49,17 +49,10 @@ export default () => sidebar({
     // 在浏览生活内容的时候会展示的侧边栏
     "/生活/": [
         {
-            text: "吐槽一下",
-            prefix: "吐槽/",
-            icon: "emoji",
-            children: "structure"
-        },
-        {
-            text: "琐碎小事",
-            prefix: "琐碎/",
+            text: "随便唠点啥",
             icon: "flower",
             children: "structure"
-        },
+        }
     ],
     // 在浏览杂谈板块内容时会展示的侧边栏
     "/other/": [
