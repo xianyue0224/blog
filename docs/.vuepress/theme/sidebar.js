@@ -61,5 +61,20 @@ export default () => sidebar({
             icon: "mesh",
             children: "structure"
         }
+    ],
+    // 在浏览慕课乐高项目内容时展示的侧边栏
+    "/imooc-lego/": [
+        {
+            text: "项目简介",
+            icon: "info",
+            link: "brief"
+        },
+        {
+            text: "第一周",
+            icon: "note",
+            prefix: "week1/",
+            collapsable: true,
+            children: "structure"
+        }
     ]
 });

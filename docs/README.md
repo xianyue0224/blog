@@ -10,9 +10,9 @@ tagline: 即使勇敢如你，也不是刀枪不入的。
 bgImage: /塞尔达传说/hero.jpg
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: 慕课乐高
+    desc: 慕课网《Web前端架构师2022版》课程产出
+    link: /imooc-lego/brief
 
   - icon: friend
     name: 伙伴名称
