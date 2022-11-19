@@ -75,6 +75,20 @@ export default () => sidebar({
             prefix: "week1/",
             collapsable: true,
             children: "structure"
+        },
+        {
+            text: "第二周",
+            icon: "note",
+            prefix: "week2/",
+            collapsable: true,
+            children: "structure"
+        },
+        {
+            text: "第三周",
+            icon: "note",
+            prefix: "week3/",
+            collapsable: true,
+            children: "structure"
         }
     ]
 });
